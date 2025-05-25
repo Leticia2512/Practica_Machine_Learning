@@ -14,10 +14,13 @@ Este repositorio contiene la implementación de modelos de **regresión** en **P
 - **Selección y evaluación del mejor modelo**: Evaluación de las métricas adecuadas (MSE, RMSE, R²) y elección del modelo óptimo.
 - **Predicción y evaluación del rendimiento**: Predecimos el precio de la vivienda con los datos de prueba y evaluamos el rendimiento final del modelo (MSE, RMSE, R²).
 
+Puedes consultar el desarrollo completo de la práctica en el siguiente notebook:  
+[📓 Desarrollo_Práctica ML_Regresión.ipynb](https://github.com/Leticia2512/Practica-Machine_Learning/blob/main/Desarrollo_Pra%CC%81ctica%20ML_Regresio%CC%81n.ipynb)
+
 ---
 
 ## 📊 Dataset
-Para el proyecto se ha utiliza el dataset [**airbnb-listings-extract**](#) que contiene información detallada de viviendas listadas en Airbnb, incluyendo características como ubicación, número de habitaciones, servicios y precios.
+Para el proyecto se ha utiliza el dataset [**airbnb-listings-extract**](https://github.com/Leticia2512/Practica-Machine_Learning/blob/main/airbnb-listings-extract.csv.zip) que contiene información detallada de viviendas listadas en Airbnb, incluyendo características como ubicación, número de habitaciones, servicios y precios.
 
 ---
 
@@ -51,4 +54,11 @@ El modelo XGBoost muestra un buen desempeño tanto en el conjunto de entrenamien
 - En test, el RMSE de 22.99 y un R² de 0.755 muestran que el modelo generaliza adecuadamente a datos nuevos, con una caída razonable en desempeño.
 
 El balance entre buen ajuste en train y capacidad de generalización en test sugiere que el modelo está bien entrenado y es robusto para predecir precios de viviendas en Airbnb dentro del rango de datos analizado.
+___
+
+## 🚀 Requerimientos para ejecutar
+  
+Instalar las dependencias (recomendado usar un entorno virtual):
+<pre> ```bash pip install -r requirements.txt ``` </pre>
+
 
