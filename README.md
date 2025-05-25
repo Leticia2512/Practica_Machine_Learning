@@ -51,7 +51,7 @@ El modelo XGBoost muestra un buen desempeño tanto en el conjunto de entrenamien
 
 - En entrenamiento, el RMSE de 16.25 y un R² de 0.872 indican que el modelo captura bien la relación entre las variables predictoras y el precio, pero sin sobreajustar excesivamente.
 
-- En test, el RMSE de 22.99 y un R² de 0.755 muestran que el modelo generaliza adecuadamente a datos nuevos, con una caída razonable en desempeño.
+- En test, el RMSE de 22.99 y un R² de 0.755 muestran que el modelo generaliza de manera aceptable a datos nuevos, con una caída razonable en desempeño, aunque con algo de **overfitting**.
 
 El balance entre buen ajuste en train y capacidad de generalización en test sugiere que el modelo está bien entrenado y es robusto para predecir precios de viviendas en Airbnb dentro del rango de datos analizado.
 ___
