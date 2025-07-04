@@ -24,20 +24,6 @@ Para el proyecto se ha utiliza el dataset [**airbnb-listings-extract**](https://
 
 ---
 
-## 🛠️ Lenguajes y Herramientas Utilizadas
-- **Lenguaje:** Python (versión 3.12.9).
-- **IDE:** Jupyter Notebook / VSCode  
-- **Librerías principales:**  
-  - `pandas`  
-  - `numpy`  
-  - `matplotlib` y `seaborn`  
-  - `scikit-learn`  
-  - `statsmodels`  
-  - `xgboost`  
-  - `category_encoders`  
-
----
-
 ## 📈 Conclusiones
 Se han entrenado los siguientes modelos:
   - Regresión Lineal  
@@ -54,6 +40,21 @@ El modelo XGBoost muestra un buen desempeño tanto en el conjunto de entrenamien
 - En test, el RMSE de 22.99 y un R² de 0.755 muestran que el modelo generaliza de manera aceptable a datos nuevos, con una caída razonable en desempeño, aunque con algo de **overfitting**.
 
 El balance entre buen ajuste en train y capacidad de generalización en test sugiere que el modelo está bien entrenado y es robusto para predecir precios de viviendas en Airbnb dentro del rango de datos analizado.
+
+---
+
+## 🛠️ Lenguajes y Herramientas Utilizadas
+- **Lenguaje:** Python (versión 3.12.9).
+- **IDE:** Jupyter Notebook / VSCode  
+- **Librerías principales:**  
+  - `Pandas`  
+  - `NumPy`  
+  - `matplotlib` y `seaborn`  
+  - `scikit-learn`  
+  - `statsmodels`  
+  - `xgboost`  
+  - `category_encoders`  
+
 ___
 
 ## 🚀 Requerimientos para ejecutar
