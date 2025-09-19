@@ -1,5 +1,6 @@
-# Practica Machine_Learning
-Práctica Módulo Machine Learning Bootcamp Big Data, Machine Leraning &amp; IA
+#  Predicción de Precios de Viviendas en Airbnb con Modelos de Regresión (Python)
+
+Módulo Machine Learning - Bootcamp KeepCoding
 ___
 
 Este repositorio contiene la implementación de modelos de **regresión** en **Python** para predecir los **precios de viviendas en Airbnb**, utilizando paar ello datos reales del dataset de **listings de Airbnb**.
